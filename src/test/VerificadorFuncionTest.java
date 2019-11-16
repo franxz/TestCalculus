@@ -1,4 +1,4 @@
-package modelo;
+package test;
 
 import excepciones.Error004;
 import excepciones.Error005;
@@ -273,7 +273,7 @@ public class VerificadorFuncionTest {
 	
 	// establezco el escenario
 	try {
-	    String comando = "T matrizC";
+	    String comando = "T matrizC marRes";
 	    this.verificador.verficaComando(comando);
 	    this.verificador.lectura();
 	} catch (Exception e) {
@@ -367,7 +367,7 @@ public class VerificadorFuncionTest {
 	
 	// establezco el escenario
 	try {
-	    String comando = "M matrizA matrizB";
+	    String comando = "M matrizA matrizB marRes";
 	    this.verificador.verficaComando(comando);
 	    this.verificador.lectura();
 	} catch (Exception e) {
